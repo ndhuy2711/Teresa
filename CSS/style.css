@@ -1,0 +1,403 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg,  rgba(121,191,250,0.2) 0%, rgba(233,127,127,0.2) 34%,rgba(252,165,132,0.2) 90%);
+}
+header {
+    min-height: auto;
+    width: auto;
+    position: fixed;
+    left: 0px;
+    right: 10px;
+    margin-bottom: 5vw;
+    top: 0;
+    z-index: 9999999;
+}
+header .container {
+    left: 0;
+    margin-left: 10px;
+}
+header .cover{
+    height: 60px;
+    min-width: auto;
+    background: linear-gradient(90deg, rgba(252,165,132,1) 0%, rgba(233,127,127,1) 34%, rgba(121,191,250,1) 100%);
+    border-radius: 0 0 50px 20px;
+    border: 1px solid brown;
+    border-top: none;
+}
+header .logo {
+    width: 100px;
+    height: 90px;
+    display: block;
+    background-color: aliceblue;
+    border-radius: 0 0 30px 30px;
+}
+header .logo img {
+    width: 100px;
+    height: 90px;
+    display: block;
+    background-color: aliceblue;
+    border-radius: 0 0 30px 30px;
+}
+header li {
+    display: block;
+    text-align: justify;
+}
+header li span{
+    text-align: justify;
+    font-size: 14px;
+}
+header li a {
+    color: black;
+    text-decoration: none;
+}
+nav{
+    margin-top: 100px;
+    min-height: 70px;
+    width: auto;
+}
+nav img {
+    width: 60px;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.banner{
+    margin-top: 20px;
+    min-height: 100px;
+    width: auto;
+}
+.banner .rongSun {
+    float: left;
+    width: 480px;
+    min-height: 100px;
+}
+.banner .rongNho {
+    float: right;
+    width: 480px;
+    min-height: 100px;
+}
+.banner .rongSun h3 {
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+}
+.banner .rongNho h3 {
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+}
+.banner .container {
+    margin: 0 10px 0 10px;
+}
+.banner .rongSun_IMG {
+    float: right;
+    width: 800px !important;
+    min-height: 450px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.banner .rongNho_IMG {
+    float: left;
+    width: 800px !important;
+    min-height: 450px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.banner .rongSun_IMG img{
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px !important;
+    height: 450px;
+    border-radius: 30px;
+}
+.banner .rongNho_IMG img{
+    display: block;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px !important;
+    height: 450px;
+    border-radius: 30px;
+}
+
+.banner .khoangTrong{
+    min-height: 40px;
+    width: auto;
+    clear: both;
+    display: block;
+    margin: 30px auto 30px auto;
+    border-radius: 30vw 50vw;
+    display: block;
+    text-align: center;
+}
+.banner .khoangTrong img{
+    height: 50px;
+    width: auto;
+    clear: both;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner .khoangTrong a button h5 {
+    display: inline-block;
+    text-align: justify;
+    color: rgb(56, 4, 2);
+    margin-bottom: 0;
+}
+.banner .hr_khoangTrong {
+    clear: both;
+    width: 70vw;
+    border: 1px solid rgba(143, 26, 65, 0.753);
+}
+
+/*Phần main*/
+main{
+    min-height: 500px;
+    width: auto;
+    clear: both;
+}
+main .container {
+    left: 0 !important;
+    margin-left: 20px !important;
+    padding: 0 !important;
+    right: 0;
+}
+main .main_left {
+    float: left;
+    width: 300px;
+    min-height: 100px;
+}
+main .main_right {
+    float: right;
+    width: 500px;
+    min-height: 100px;
+}
+
+
+.sidebar-container {
+    width: 18vw;
+    min-height: 30vw;
+    left: 0;
+    background: linear-gradient(90deg, rgba(121, 192, 250, 0.4) 0%, rgba(233, 127, 127, 0.5) 30%, rgba(252,165,132,1) 70%);
+    color: #fff;
+    display: inline-block !important;
+    border-radius: 0 30px 0 0;
+  }
+  
+  .content-container {
+    padding-top: 20px;
+  }
+  .content-container .jumbotron
+  {
+      width: 80vw !important;
+  }
+  .sidebar-logo {
+    padding: 10px 15px 10px 30px;
+    font-size: 20px;
+    background:  rgba(3, 31, 54, 0.87);
+    border-radius: 0 30px 0 0;
+  }
+  
+  .sidebar-navigation {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+  }
+  
+  .sidebar-navigation li {
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    line-height: 20px;
+  }
+  
+  .sidebar-navigation li a {
+    padding: 10px 15px 10px 30px;
+    display: block;
+    color: #fff;
+  }
+  
+  .sidebar-navigation li .fa {
+    margin-right: 10px;
+  }
+  
+  .sidebar-navigation li a:active,
+  .sidebar-navigation li a:hover,
+  .sidebar-navigation li a:focus {
+    text-decoration: none;
+    outline: none;
+  }
+  
+  .sidebar-navigation li::before {
+    background-color: #2574A9;
+    position: absolute;
+    content: '';
+    height: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transition: width 0.2s ease-in;
+    transition: width 0.2s ease-in;
+    width: 3px;
+    z-index: -1;
+  }
+  
+  .sidebar-navigation li:hover::before {
+    width: 100%;
+  }
+  
+  .sidebar-navigation .header {
+    font-size: 12px;
+    text-transform: uppercase;
+    background:  linear-gradient(90deg, rgba(121, 192, 250, 1) 3%, rgba(233, 127, 127, 1) 32%, rgba(252,165,132,1) 65%);
+    padding: 10px 15px 10px 30px;
+  }
+  
+  .sidebar-navigation .header::before {
+    background-color: transparent;
+  }
+  
+  .content-container {
+    padding: 0 !important;
+    display: inline-block !important;
+    width: 70vw !important;
+    margin: 0 !important;
+    min-height: 30vw;
+    
+  }
+/*Phần main*/
+  footer{
+    background: rgb(132, 132, 133);
+    min-height: 100px;
+    width: auto;
+    clear: both;
+}
+@media screen and (max-width: 770px) {
+    header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        min-height: 200px;
+    }
+    header .logo {
+        width: 0;
+        height: 0;
+        display: block;
+        background-color: aliceblue;
+        border-radius: 0 0 30px 30px;
+    }
+    header .logo img {
+        width: 0px;
+        height: 0px;
+        display: block;
+        background-color: aliceblue;
+        border-radius: 0 0 30px 30px;
+    }
+    header .cover{
+        height: auto;
+        width: auto;
+        background: linear-gradient(90deg, rgba(252,165,132,1) 0%, rgba(233,127,127,1) 34%, rgba(121,191,250,1) 100%);
+        border-radius: 0 0 50px 20px;
+    }
+    nav{
+        margin-top: 105px;
+        min-height: 70px;
+        width: auto;
+    }
+  }
+@media screen and (max-width: 800px)
+  {
+    .banner .rongSun {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        min-height: 100px;
+    }
+    .banner .rongNho {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        min-height: 100px;
+    }
+    .banner .rongSun_IMG {
+        width: 100vw !important;
+        min-height: 100px;
+    }
+    .banner .rongSun_IMG img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw !important;
+        min-height: 100px;
+    }
+    .banner .rongNho_IMG {
+        width: 100vw !important;
+        min-height: 100px;
+    }
+    .banner .rongNho_IMG img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw !important;
+        min-height: 100px;
+    }
+    .content-container {
+        padding: 0;
+        display: inline-block !important;
+        width: 100vw !important;
+        min-height: auto;
+        
+      }
+      .sidebar-container {
+        width: 100vw;
+        min-height: auto;
+        left: 0;
+        background: #1a1a1a;
+        color: #fff;
+        display: inline-block !important;
+      }
+      .content-container .jumbotron
+  {
+      width: 100vw !important;
+  }
+  }
+@media screen and (max-width: 1000px)
+  {
+      header {
+          min-height: 100px;
+          position: fixed;
+          left: 0;
+          right: 0;
+          float: left;
+        }
+      header .cover{
+          height: auto;
+          width: auto;
+          background: linear-gradient(90deg, rgba(252,165,132,1) 0%, rgba(233,127,127,1) 34%, rgba(121,191,250,1) 100%);
+          border-radius: 0 0 50px 20px;
+      }
+      nav{
+          margin-top: 105px;
+          min-height: 70px;
+          width: auto;
+      }
+      .content-container {
+          padding: 0;
+          display: inline-block !important;
+          width: 75vw !important;
+          
+        }
+  }
